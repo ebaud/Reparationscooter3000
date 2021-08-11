@@ -14,5 +14,17 @@ export class RepairsService {
         return this.repairsRepository.find();
       }
 
+    create() {
+        return this.repairsRepository.create();
+    }
+
+    modify() {
+        return this.repairsRepository.modify();
+    }
+
+    delete() {
+        return this.repairsRepository.delete();
+    }
+
 
 }
